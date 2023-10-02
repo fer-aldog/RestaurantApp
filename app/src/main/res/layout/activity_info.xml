@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#151515"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="restaurantlogo"
+        android:src="@drawable/restoinfo" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="14sp" />
+
+    <View
+        android:layout_width="322dp"
+        android:layout_height="1dp"
+        android:background="#F3F3F3" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="28sp" />
+
+    <TextView
+        android:layout_width="362dp"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:text="             At Akira Ramen, we specialize in taking the authentic ramen experience to the next level. We offer unique in-house broths that suit everyone's taste. With extra toppings as an option, you can customize your ramen anytime."
+        android:textColor="#ACACAC"
+        android:textSize="19sp" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="28sp" />
+
+    <View
+        android:layout_width="322dp"
+        android:layout_height="1dp"
+        android:background="#FFF3F3F3" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="36sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hours open:"
+                android:textColor="#ACACAC"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="Sun - Thurs\n11:30 AM — 9:00 PM\n\nFri - Sat\n11:30 AM — 9:30 PM"
+                android:textSize="17sp"
+                android:textColor="#ACACAC" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="14sp"
+            android:layout_height="1dp" />
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="#F3F3F3" />
+
+        <Space
+            android:layout_width="18sp"
+            android:layout_height="1dp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Locations:"
+                android:textColor="#ACACAC"
+                android:textSize="22sp"
+                android:textStyle="bold" />
+
+            <Space
+                android:layout_width="1dp"
+                android:layout_height="14sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="17sp"
+                android:text="Baltimore MD \nBowie MD\nColumbia MD\nGambrills, MD\nNottingham, MD \nRockville MD\nTowson MD\nWhite Marsh MD"
+                android:textColor="#ACACAC" />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

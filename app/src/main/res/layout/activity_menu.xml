@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="345dp"
+        android:layout_height="618dp"
+        android:background="#B7FFDFC3"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="323sp"
+            android:layout_height="110sp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="97sp"
+                android:layout_height="97sp"
+                android:contentDescription="restaurantlogo"
+                android:src="@drawable/logo" />
+
+            <Space
+                android:layout_width="45sp"
+                android:layout_height="1dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif-medium"
+                android:gravity="center"
+                android:text="Main menu"
+                android:textSize="25sp" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="20sp" />
+
+        <ImageView
+            android:id="@+id/foodIV"
+            android:layout_width="319dp"
+            android:layout_height="210dp"
+            android:contentDescription="restaurantlogo"
+            android:src="@drawable/food" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="20sp" />
+
+        <TextView
+            android:id="@+id/setTextTV"
+            android:layout_width="264dp"
+            android:layout_height="71dp"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="What would you like\nto do?"
+            android:textSize="25sp" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="15sp" />
+
+        <Button
+            android:id="@+id/infoBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direct me to the store's info!"
+            android:textSize="16sp"
+            app:backgroundTint="#C87537"
+            app:cornerRadius="12sp" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="5sp" />
+
+        <Button
+            android:id="@+id/siteBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Direct me to the website!"
+            android:textSize="16sp"
+            app:backgroundTint="#C87537"
+            app:cornerRadius="12sp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

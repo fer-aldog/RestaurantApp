@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EAEAEA"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_width="230sp"
+        android:layout_height="230sp"
+        android:contentDescription="restaurantlogo"
+        android:src="@drawable/logo" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="30sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="Hello and welcome to\nAkira Ramen &amp; Izakaya!"
+        android:textSize="27sp" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="21sp" />
+
+    <EditText
+        android:id="@+id/nameET"
+        android:layout_width="200sp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:hint="Enter your name here"
+        android:textSize="15sp" />
+
+    <Button
+        android:id="@+id/setBTN"
+        android:layout_width="134sp"
+        android:layout_height="wrap_content"
+        android:text="Set Name"
+        android:textSize="14sp"
+        app:backgroundTint="#7C7B7B"
+        app:cornerRadius="10sp" />
+
+
+</LinearLayout>
