@@ -12,7 +12,7 @@ public class MenuActivity extends AppCompatActivity {
 
     Intent incomingIntent;
     TextView setTextTV;
-    Button infoBTN, siteBTN;
+    Button infoBTN, siteBTN, planBTN;
     String name;
 
     @Override
@@ -23,6 +23,7 @@ public class MenuActivity extends AppCompatActivity {
         setTextTV = (TextView) findViewById(R.id.setTextTV);
         infoBTN = (Button) findViewById(R.id.infoBTN);
         siteBTN = (Button) findViewById(R.id.siteBTN);
+        planBTN = (Button) findViewById(R.id.planBTN);
         incomingIntent = getIntent();
         name = incomingIntent.getStringExtra("name");
 
@@ -43,6 +44,14 @@ public class MenuActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent myIntent = new Intent(MenuActivity.this, WebViewActivity.class);
+                startActivity(myIntent);
+            }
+        });
+
+        planBTN.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(MenuActivity.this, OrderActivity.class);
                 startActivity(myIntent);
             }
         });

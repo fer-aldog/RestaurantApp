@@ -42,7 +42,7 @@
 
         <Space
             android:layout_width="1dp"
-            android:layout_height="20sp" />
+            android:layout_height="15sp" />
 
         <ImageView
             android:id="@+id/foodIV"
@@ -53,7 +53,7 @@
 
         <Space
             android:layout_width="1dp"
-            android:layout_height="20sp" />
+            android:layout_height="15sp" />
 
         <TextView
             android:id="@+id/setTextTV"
@@ -66,7 +66,7 @@
 
         <Space
             android:layout_width="1dp"
-            android:layout_height="15sp" />
+            android:layout_height="10sp" />
 
         <Button
             android:id="@+id/infoBTN"
@@ -86,6 +86,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="Direct me to the website!"
+            android:textSize="16sp"
+            app:backgroundTint="#C87537"
+            app:cornerRadius="12sp" />
+
+        <Space
+            android:layout_width="1dp"
+            android:layout_height="5sp" />
+
+        <Button
+            android:id="@+id/planBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Create an order!"
             android:textSize="16sp"
             app:backgroundTint="#C87537"
             app:cornerRadius="12sp" />

@@ -6,6 +6,11 @@
     android:gravity="center"
     android:orientation="vertical" >
 
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="20sp" />
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -14,7 +19,7 @@
 
     <Space
         android:layout_width="1dp"
-        android:layout_height="14sp" />
+        android:layout_height="1sp" />
 
     <View
         android:layout_width="322dp"
@@ -44,81 +49,216 @@
 
     <Space
         android:layout_width="1dp"
-        android:layout_height="36sp" />
+        android:layout_height="14sp" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hours open:"
+        android:textColor="#ACACAC"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="12sp" />
 
     <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="top"
         android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Sun - Thurs\n11:30 AM — 9:00 PM"
+            android:textSize="17sp"
+            android:textColor="#ACACAC"/>
+
+        <Space
+            android:layout_width="12sp"
+            android:layout_height="1dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Fri - Sat\n11:30 AM — 9:30 PM"
+            android:textSize="17sp"
+            android:textColor="#ACACAC"/>
+
+    </LinearLayout>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="18sp" />
+
+    <View
+        android:layout_width="322dp"
+        android:layout_height="1dp"
+        android:background="#FFF3F3F3" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="18sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Locations:"
+        android:textColor="#ACACAC"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="12sp" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
-            <TextView
+            <Button
+                android:id="@+id/bmoreBTN"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Hours open:"
-                android:textColor="#ACACAC"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-
-            <Space
-                android:layout_width="1dp"
-                android:layout_height="14sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:text="Sun - Thurs\n11:30 AM — 9:00 PM\n\nFri - Sat\n11:30 AM — 9:30 PM"
-                android:textSize="17sp"
-                android:textColor="#ACACAC" />
-        </LinearLayout>
+                android:text="Baltimore"
+                android:textColor="#ACACAC"
+                android:textSize="16sp" />
 
-        <Space
-            android:layout_width="14sp"
-            android:layout_height="1dp" />
+            <Button
+                android:id="@+id/fredBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Frederick"
+                android:textColor="#ACACAC"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/towsnBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Towson"
+                android:textColor="#ACACAC"
+                android:textSize="16sp" />
+
+        </LinearLayout>
 
         <View
             android:layout_width="1dp"
-            android:layout_height="match_parent"
-            android:background="#F3F3F3" />
-
-        <Space
-            android:layout_width="18sp"
-            android:layout_height="1dp" />
+            android:layout_height="130dp"
+            android:background="#FFF3F3F3" />
 
         <LinearLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:gravity="center"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:gravity="center">
 
-            <TextView
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/bowieBTN"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Locations:"
-                android:textColor="#ACACAC"
-                android:textSize="22sp"
-                android:textStyle="bold" />
-
-            <Space
-                android:layout_width="1dp"
-                android:layout_height="14sp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="sans-serif"
                 android:gravity="center"
-                android:textSize="17sp"
-                android:text="Baltimore MD \nBowie MD\nColumbia MD\nGambrills, MD\nNottingham, MD \nRockville MD\nTowson MD\nWhite Marsh MD"
-                android:textColor="#ACACAC" />
+                android:text="Bowie"
+                android:textColor="#ACACAC"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/owingBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Owings Mills"
+                android:textColor="#ACACAC"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/washiBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Washington DC"
+                android:textColor="#ACACAC"
+                android:textSize="16sp" />
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="1dp"
+            android:layout_height="130dp"
+            android:background="#FFF3F3F3" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/columBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Columbia"
+                android:textColor="#ACACAC"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/rockvBTN"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="Rockville"
+                android:textColor="#ACACAC"
+                android:textSize="16sp" />
+
+            <Button
+                android:id="@+id/wtmshBTN"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00FFFFFF"
+                android:fontFamily="sans-serif"
+                android:gravity="center"
+                android:text="White Marsh"
+                android:textColor="#ACACAC"
+                android:textSize="16sp" />
+
         </LinearLayout>
     </LinearLayout>
 
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="40sp" />
 
 </LinearLayout>

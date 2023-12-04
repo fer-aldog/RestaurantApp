@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
 
 
                 if(name.equals("")) {
-                    Toast t = Toast.makeText(getApplicationContext(), "Your name has not been set/.", duration);
+                    Toast t = Toast.makeText(getApplicationContext(), "Your name has not been set.", duration);
                     t.show();
                 } else {
                     Toast t = Toast.makeText(getApplicationContext(), "Your name has been set to '" + name + "'.", duration);
